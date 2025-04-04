@@ -1,0 +1,10 @@
+num1 = float(input())
+num2 = float(input())
+num3 = float(input())
+num4 = float(input())
+product = num1 * num2 * num3 * num4 
+avg = product ** (1/4)
+print(f'{product:.0f}')
+print(f'{avg:.0f}')
+print(f'{product:.3f}')
+print(f'{avg:.3f}')
