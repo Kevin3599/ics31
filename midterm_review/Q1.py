@@ -6,7 +6,7 @@ def main():
     c = f(a,b)	
     z = g(x,c)	
     x = f(int(z), b)	
-    print(a, b, c)
+    print(f'{a},{b}, {c}')
     print(x, y, z)
 
 
