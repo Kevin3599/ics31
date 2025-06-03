@@ -1,0 +1,48 @@
+{
+	"Aldrich Park": {
+		"text":"You are standing at the center of Aldrich Park.\nIt is a beautiful day and students scooter by on their way to class",
+		"moves": {
+			"north":"Bren Events Center",
+			"east":"Anteater Parking Structure",
+			"south":"Bren Hall",
+			"west":"Anteater Learning Pavilion"
+		}
+	},
+	"Bren Events Center" : {
+		"text":"You are sitting inside the Bren Events Center.\nThe women's volleyball game just started, and UCI is leading!",
+		"moves" : {
+			"south":"Anteater Learning Pavilion",
+			"east":"Aldrich Park"
+		},
+		"objects":[{
+			"name":"a golden key",
+			"type": "special"
+		}]
+
+	},
+	"Anteater Parking Structure": {
+		"text":"You are walking towards your car in the Anteater Parking Structure.\nIs that a ticket I see on my car?",
+		"moves": {
+			"exit":"Aldrich Park"
+		}
+	},
+	"Bren Hall": {
+		"text":"You are at the elevator of Bren Hall.\nWhich floor are you going to?",
+		"moves": {
+			"6":"Bren Hall",
+			"5":"Bren Hall",
+			"4":"Bren Hall",
+			"3":"3015",
+			"2":"Bren Hall"
+
+		}	
+	},
+	"Anteater Learning Pavilion": {
+		"text":"You are in ICS 31's lecture in ALP 2300.\nToday's topic is recursion!",
+		"moves":{
+			"north":"Bren Events Center",
+			"south":"Bren Hall",
+			"east":"Aldrich Park"
+		}
+	}
+}
